@@ -1,0 +1,23 @@
+{
+	"scripts": {
+		"build": "parcel build",
+		"watch": "parcel serve --dist-dir var/dist",
+		"lint": "exit 0",
+		"test": "exit 0"
+	},
+	"targets": {
+		"entrypoint": {
+			"source": [
+				"src/index.html"
+			],
+			"distDir": "var/dist"
+		}
+	},
+	"devDependencies": {
+		"parcel": "^2.8.0",
+		"parcel-reporter-static-files-copy": "^1.4.0"
+	},
+	"dependencies": {
+		"@kyberbits/prism": "^1.0.2"
+	}
+}

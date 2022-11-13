@@ -1,0 +1,42 @@
+:root {
+	--dark-color-accent: #8e57f7;
+}
+
+#banner {
+	background-color: var(--color-accent);
+	height: 256px;
+	margin-bottom: calc(200px / -2);
+}
+
+#main {
+	margin: auto;
+	padding: 0 2rem;
+	max-width: 400px;
+	text-align: center;
+}
+
+#main img {
+	width: 200px;
+	border-radius: 200px;
+}
+
+#main > * {
+	margin-bottom: 1rem;
+}
+
+#main table {
+	width: 100%;
+}
+
+#main table a {
+	display: block;
+}
+
+#main .table-thing {
+	padding: 1rem;
+}
+
+#main hr {
+	display: block;
+	width: 100%;
+}
